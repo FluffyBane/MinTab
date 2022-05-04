@@ -35,6 +35,10 @@ const LIST_ITEMS = [
     link: "https://reddit.com/r/games"
   },
   {
+    name: "notion",
+    link: "https://www.notion.so/Personal-Home-cee72af456c642a88a0c49d3a7141b2e"
+  },
+  {
     name: "wallpapers",
     link: "https://www.pexels.com/discover/"
   }
