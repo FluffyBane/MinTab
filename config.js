@@ -1,41 +1,49 @@
 const CONFIG = {
-  hour12  : false
+  hour12: false
 }
 
 const ICONS = [
+  {
+    icon: "ri-drive-fill",
+    link: "https://drive.google.com/drive/my-drive"
+  },
+  {
+    icon: "ri-mail-unread-fill",
+    link: "https://mail.google.com/"
+  },
   {
     icon: "ri-youtube-fill",
     link: "https://www.youtube.com/"
   },
   {
-    icon: "ri-whatsapp-fill",
-    link: "https://web.whatsapp.com/"
+    icon: "ri-twitter-fill",
+    link: "https://twitter.com"
   },
   {
     icon: "ri-reddit-fill",
-    link: "https://www.reddit.com/"
+    link: "https://old.reddit.com/"
   },
   {
-    icon: "ri-github-fill",
-    link: "https://www.github.com/"
+    icon: "ri-facebook-fill",
+    link: "https://facebook.com"
   }
 ]
 
 const LIST_ITEMS = [
   {
-    name: "music",
-    link: "https://music.youtube.com"
+    name: "r/games",
+    link: "https://reddit.com/r/games"
   },
   {
-    name: "netflix",
-    link: "https://www.netflix.com/"
-  },
-  {
-    name: "r/unixporn",
-    link: "https://www.reddit.com/r/unixporn/"
-  },
-  {
-    name: "r/firefoxcss",
-    link: "https://www.reddit.com/r/firefoxcss/"
-  },
+    name: "wallpapers",
+    link: "https://www.pexels.com/discover/"
+  }
+]
+
+const BACKGROUND_IMAGES = [
+  "default.jpg",
+  "leaves.jpg",
+  "space.jpg",
+  "pots.jpg",
+  "mountain.jpg"
 ]
